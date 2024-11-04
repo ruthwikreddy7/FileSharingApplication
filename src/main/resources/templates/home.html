@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>File Sharing Application </title>
+
+    <script src="https://kit.fontawesome.com/106a3659bb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link th:href="@{/styles/css/homestyle.css}" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+<div class="header-test">
+    <h1 class="header-title">File Sharing App</h1>
+    <h2 class="header-line">Seamless Sharing  ⇄  Boundless Possibilities</h2>
+</div>
+
+<main>
+    <p>Effortlessly share files from one device to another.</p>
+</main>
+
+
+
+<div class="card-container">
+    <div class="card">
+
+        <div class="card-front">
+            <h3>Features</h3><br>
+            
+            <p> <br>
+                 ⚡️ Fast and Secure Transfers <br>
+                 ♻️ User-Friendly Interface <br>
+                 👨‍💻 Cross-Platform Compatibility  <br>
+                 <br>
+                A new way of sharing files. Start sharing your files today 🗃️.</p>
+            <button class="login-btn">Login</button>
+        </div>
+        <div class="card-back">
+            <form>
+                <h3>Login</h3>
+                
+                <div class="social">
+                    <a href="/oauth2/authorization/google" class="go"><i class="fab fa-google"></i> Continue with Google</a>
+                    <a href="/oauth2/authorization/github" class="gitHub"><i class="fab fa-github"></i> Continue with GitHub</a>
+                </div>
+                <p class="about-btn">back ↩ </p>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelector('.login-btn').addEventListener('click', function () {
+        document.querySelector('.card').classList.toggle('flipped');
+    });
+    document.querySelector('.about-btn').addEventListener('click', function () {
+        document.querySelector('.card').classList.toggle('flipped');
+    });
+</script>
+
+</body>
+</html>
