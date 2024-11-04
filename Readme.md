@@ -1,11 +1,26 @@
-# File Sharing Manager
+# File Sharing Application 
 
-![1](https://github.com/user-attachments/assets/f6195e6f-596e-4fac-9b70-e2419fcd5251)
-![2](https://github.com/user-attachments/assets/227f2168-782e-49ed-8524-68e86f24ad25)
-![3](https://github.com/user-attachments/assets/f3c7883f-d69a-4b9a-9c2d-524ad1b71b00)
-![4](https://github.com/user-attachments/assets/970a7287-4ece-4cc5-8779-65e9f07e7e94)
-![4a](https://github.com/user-attachments/assets/1f3e4a63-902c-42fa-8ed9-526a3e1195d0)
-![5](https://github.com/user-attachments/assets/47324c1d-f23b-476e-88ca-abccd501a633)
-![6](https://github.com/user-attachments/assets/3561d0d5-290a-4992-9878-86e29f922f6e)
-![7](https://github.com/user-attachments/assets/eee2bb04-1d1f-4d17-8052-0b7d709b5d6e)
-![8](https://github.com/user-attachments/assets/83a488ea-a188-4483-95cb-f37d41c9c249)
+A secured file-sharing application using Spring Boot, Thymeleaf, and MySQL, enabling seamless file uploads, downloads, and sharing while enhancing the overall efficiency of file transfers.
+
+## Video Walkthrough 📽️
+Project Demo (Video) [click to view](https://www.youtube.com/watch?v=BbJt6HpZnNU&t=203s)
+
+## How to generate OAuth 2 clientid and client secret key for google and github 🤔?
+
+Google clientid and client secret key [click to view](https://www.youtube.com/watch?v=-vq32dsK_TI). 
+
+Add this redirect-uri while generating "http://localhost:8080/login/oauth2/code/google"
+
+GitHub clientid and client secret key [click to view](https://drive.google.com/file/d/1MUtw7GZB80bi7LPwqM8e1N2zMF9HIlps/view?usp=sharing).
+
+
+![Screenshot 2024-11-04 150851](https://github.com/user-attachments/assets/bbc05f68-43d3-42a0-b18f-2a5b74004274)
+
+
+![Screenshot 2024-11-04 150908](https://github.com/user-attachments/assets/c0ad1497-623b-4fdc-8c55-cd6ad63144a8)
+
+
+![Screenshot 2024-11-04 150942](https://github.com/user-attachments/assets/0b51608a-8a70-4f69-a9cc-4000bde4d622)
+
+
+
